@@ -5,6 +5,7 @@ import ComponentOne from "./components/ComponentOne";
 import PersonCard from "./components/PersonCard";
 import Leg from "./components/Leg";
 import PersonCard2 from "./components/PersonCard2";
+import Punch from "./components/Punch";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
         age={"48"}
         haircolor={"pearl white"}
       />
+
+      <Punch />
     </div>
   );
 }
