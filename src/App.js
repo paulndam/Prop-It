@@ -4,6 +4,7 @@ import "./App.css";
 import ComponentOne from "./components/ComponentOne";
 import PersonCard from "./components/PersonCard";
 import Leg from "./components/Leg";
+import PersonCard2 from "./components/PersonCard2";
 
 function App() {
   return (
@@ -39,6 +40,14 @@ function App() {
       />
 
       <Leg />
+
+      <PersonCard2
+        firstname={"Eric"}
+        lastname={"Tim"}
+        gender={"male"}
+        age={"48"}
+        haircolor={"pearl white"}
+      />
     </div>
   );
 }
